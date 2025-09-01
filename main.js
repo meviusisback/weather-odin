@@ -33,7 +33,7 @@ function handleSubmit(event) {
 
 function weatherFetch(location) {
   fetch(
-    `https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/${location}?unitGroup=us&key=GSPMHDELQFPNP36FHDL9GSBG9&contentType=json`,
+    `https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/${location}?unitGroup=metric&key=GSPMHDELQFPNP36FHDL9GSBG9&contentType=json`,
     {
       method: "GET",
       headers: {},
